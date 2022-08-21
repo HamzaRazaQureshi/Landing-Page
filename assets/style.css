@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Istok web';
+    src: url(font/IstokWeb-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Istok web';
+    src: url(font/IstokWeb-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(font/Poppins-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Poppiins';
+    src: url(font/Poppins-Light.ttf);
+    font-weight: 200;
+}
+
+:root{
+    --primary-color: #013456;
+    --secondary-color: #fad405;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 81px;
+    max-width: 1231px;
+    margin: 0 auto;
+    font-family: 'Istok web';
+}
+
+.header-title{
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.header span{
+    font-weight: 700;
+    font-size: 40px;
+    margin-right: 10px;
+    color: var(--primary-color);
+}
+
+.header .plane-icon{
+    color: var(--secondary-color);
+}
+
+.header .menu-icon,
+.header .close-icon{
+    display: none;
+}
+
+.header-navigation{
+    display: flex;
+    height: 52px;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.header-navigation a{
+    text-decoration: none;
+    margin-left: 29px;
+    font-size: 36px;
+    color: var(--primary-color);
+}
+
+.wrapper{
+    display: flex;
+}
+
+.wrapper aside{
+    width: 50%;
+    margin-top: 46px;
+    position: relative;
+}
+
+.book-circle{
+    width: 785px;
+    height: 785px;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book{
+    height: 785px;
+    margin-bottom: 55px;
+}
