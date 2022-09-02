@@ -108,6 +108,9 @@ nav{
 .nav-right a:hover{
     color: #fad405;
 }
+.nav-right .menu{
+    display: none;
+}
 .home{
     width: 100%;
     display: flex;
@@ -221,7 +224,6 @@ nav{
 .buy-item .items{
     display: flex;
     width: 100%;
-    background-color:;
 }
 .buy-item .items .product{
     margin: auto;
@@ -279,6 +281,9 @@ nav{
     font-size: 25px;
     padding: 10px;
 }
+.contact-info a:hover{
+    color: #fad405;
+}
 .contact .contact-social{
     text-align: center;
     width: auto;
@@ -290,6 +295,9 @@ nav{
     font-size: 25px;
     padding: 10px;
 }
+.contact-social a:hover{
+    color: #fad405;
+}
 .contact p{
     text-align: center;
     width: auto;
@@ -297,4 +305,22 @@ nav{
     color: #fff;
     font-size: 15px;
     padding-bottom: 10px;
+}
+@media (max-width:1300px) {
+    .nav-middle{
+        display: none;
+    }
+    .nav-right a{
+        display: none;
+    }
+    .nav-right .menu{
+        display: block;
+        font-size: larger;
+    }
+    .nav-left a h1{
+        font-size: 20px;
+    }
+    .nav-left a i{
+        font-size: 20px;
+    }
 }
